@@ -1,0 +1,106 @@
+#Tema: tareas repetitivas (for, while)
+# print ("1" ")
+# print ("2" ")
+# print ("3" ")
+# print ("4" ")
+       
+# While (mientras
+# El blucle while se repite un bloque de codigo *mientras* una condicions sea verdadera
+# (´true´). En el instante en que la condicion se ve vuelve (´false´), el ciclo termina
+##![](dia2-while.png
+
+##Sintaxis
+#´´´´python
+# un valor inicial antes de iniciar el ciclo
+# codigo dentro del ciclo
+# sino todo es verdadera se vuelve una condicion infinita
+# 
+# while condicion:
+  #accion repetitiva que quiero que suceda
+  
+  #ejemplo
+ # ´´´´python
+# contador = 1
+
+# while contador <= 3:
+#     print("Hola, soy el ciclo de while")
+#     print("Contador: ", contador)
+#     valor = float(input("Ingrese un numero de aumento: "))
+#     contador = contador + valor
+
+# clave_correcta = "12345"
+
+# intentos = ""
+# while intentos != clave_correcta:
+#     intentos = input("Ingrese la clave: ")
+    
+# print("clave correcta Acceso concendido.")
+
+# opcion = "" ##vacio
+# while opcion != "salir" and opcion != "2":
+
+#     print("1. Saludar")
+#     print("2. Salir")
+#     opcion = input("Ingrese una opcion: ")
+    
+#     if opcion == "1" or opcion == "saludar":
+#         print("Hola, como estas")
+#     elif opcion == "2" or opcion == "salir":
+#         print("Adios, hasta luego")
+#     else:
+#         print("Opcion no valida, por favor ingrese una opcion valida")
+
+## ciclo "for"
+# Tiene una funcion en conjunto tiene diferentes variantes diferents formas de 
+# ocupamos algo que se llamma range
+
+
+# range(cantidad) aca va las repeticiones
+# el for crear automatiamente una variable
+#     index es la variable temporal
+# el index va crear una secuencia de numeros que va desde el 0
+#  ´´´´python
+# # 1, 2, 3, 4 no llega hasta el 5
+# # o ... n-1
+# for index in range(5):
+#     print(index)
+
+# for index in range(1, 5):
+#     print(index)
+
+
+### ============Reto 1: La Tabla de Multiplicar 
+# * **Instrucción:** El gerente necesita calcular precios al por mayor.
+# Pide al usuario que ingrese un número (ejemplo: 7), 
+# para imprimir la tabla de multiplicar de ese número del 1 al 10.
+### Reto 1: La Tabla de Multiplicar 
+
+# * **Instrucción:** El gerente necesita calcular precios al por mayor. 
+# Pide al usuario que ingrese un número (ejemplo: 7), para imprimir la tabla de multiplicar de ese 
+# número del 1 al 10.
+
+
+
+# Reto 2: La Meta de Ahorro de la Tienda (Uso de 'while')
+# * **Instrucción:** La tienda quiere comprar un nuevo rótulo luminoso que cuesta 100,000 dólares. Crea un programa que tenga una meta de 100000 y un ahorro que empiece en 0. Usa un bucle para preguntarle al gerente: "¿Cuánto dinero depositamos hoy a la cuenta de ahorros?". 
+# Suma eso al ahorro total. El bucle debe 
+# repetirse *mientras* el ahorro sea menor a la meta.
+# Al salir del bucle, felicita al gerente.
+
+
+# tiene 15 años o más
+# y tiene autorización del profesor
+# Si no cumple estas condiciones, el programa debe indicar que no puede ingresar al laboratorio y
+# finalizar.
+# Compra de minutos extra
+# Si el estudiante puede entrar al laboratorio:
+# El sistema debe permitirle comprar paquetes de minutos extra.
+# Cada paquete cuesta el monto indicado por el programa.
+# Mientras el estudiante tenga saldo suficiente y quiera seguir comprando:
+# se descuenta el costo del paquete
+# se suma un paquete al contador de paquetes comprados
+# Si el saldo ya no alcanza para otro paquete, el sistema debe detener la compra automáticamente.
+# Al final el sistema debe mostrar
+# nombre del estudiante
+# cantidad de paquetes comprados
+# saldo restante
